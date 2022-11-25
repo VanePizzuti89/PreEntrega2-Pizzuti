@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(151, 204, 206)    
+    }
+
+header {
+    display: flex;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    color:red ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 20px;
+}
+
+nav {
+    font-size: 20px;
+    display: inline;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    font-family: cursive;
+    font-weight: bold;
+    color: blue;
+    padding-left: 10px;
+    background-color: rgb(197, 197, 161);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: white;
+}
+
+.imagprincipal {
+    padding-top: 50px;
+    background-origin: bisque ;
+    margin-left: 250px;
+}
+    
+.claz {
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.destac {
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.repiten {
+    height: 150px;
+    width: 150px;
+    display: inline;
+    margin-left: 130px;
+    padding-top: 50px;
+    position:relative;
+}
+
+footer, a {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.derechos {
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.tipo-de-perro {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.hijos-con-contenido-a-mover {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+.hijos-con-contenido-a-mover p {
+    width: 300px;
+}
+
+.hijos-del-padre p {
+    display: inline;
+    margin-top: 50px;
+}
+
+.boton-ver-mas {
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.padre-formulario {
+    display: block;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.hijo-formulario {
+    border-radius: 10px;
+}
+
+.boton-form {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.img-logo-redes{
+    display: block;
+    padding-left: 620px;
+    padding-top: 10px;
+}
