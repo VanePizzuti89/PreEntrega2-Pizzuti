@@ -7,15 +7,21 @@ header {
     display: flex;
 }
 
-header img {
-    height: 100px;
-    width: 100px;
+header h1{
+    display: inline;
+    padding-top: 2px;
 }
 
 h1 {
     color:red ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-left: 20px;
+    margin-left: 1px;
+    }
+
+.personalizlogo {
+    padding-top: 1px;
+    margin-left: 1px;
 }
 
 nav {
@@ -39,7 +45,6 @@ a:link {
     text-decoration: none;
 }
 
-
 a:hover {
     color: white;
 }
@@ -58,7 +63,6 @@ a:hover {
 .destac {
     text-align: center;
     padding-top: 30px;
-    
 }
 
 .repiten {
@@ -118,10 +122,4 @@ footer, a {
 .boton-form {
     margin-top: 30px;
     margin-left: 20px;
-}
-
-.img-logo-redes{
-    display: block;
-    padding-left: 620px;
-    padding-top: 10px;
 }
