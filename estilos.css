@@ -124,14 +124,10 @@ footer, a {
     padding-top: 20px;
 }
 
-.hijos-con-contenido-a-mover {
+.card {
     display: inline-block;
     margin-left: 20px;
-    padding-top: 40px;
-}
-
-.hijos-con-contenido-a-mover p {
-    width: 300px;
+    padding-top: 30px;
 }
 
 .hijos-del-padre p {
