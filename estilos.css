@@ -181,14 +181,9 @@ footer, a {
     margin-left: 20px;
 }
 
-@media (min-width: 576px) {
-    index.html {
-        background-color: rgb(151, 204, 206);
-    }
-}
+@media (max-width: 576px) and (max-width: 1200px) {
+ 
 
 @media (min-width: 1200px) {
-    index.html {
-        background-color: salmon;
-    }
+    
 }
