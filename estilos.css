@@ -17,6 +17,11 @@ header h1{
     padding-top: 2px;
 }
 
+.personalizlogo {
+    padding-top: 2px;
+
+}
+
 h1 {
     color:red ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -72,8 +77,8 @@ a:hover {
 }
 
 .repiten {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     display: inline;
     margin-left: 130px;
     padding-top: 50px;
@@ -142,8 +147,15 @@ footer, a {
 }
 
 .boton-ver-mas {
-    margin-left: 600px;
-    margin-top: 30px;
+    margin-left: 650px;
+    margin-top: 50px;
+    text-align: center;
+    color: blue;
+    background-color: rgb(151, 204, 206);
+    border-radius: 3px;
+    border-color: blue;
+
+
 }
 
 .padre-formulario {
