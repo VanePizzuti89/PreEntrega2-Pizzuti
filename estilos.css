@@ -4,10 +4,6 @@ body {
     box-sizing: border-box;    
     }
 
-html {
-    scroll-behavior: smooth;
-}
-
 header {
     display: flex;
 }
@@ -19,16 +15,20 @@ header h1{
 
 .personalizlogo {
     padding-top: 2px;
-
 }
 
 h1 {
     color:red ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-left: 20px;
+    padding-top: 20px;
     margin-left: 1px;
     font-size: 30px;
     }
+
+h2 {
+    font-size: 25px;
+}    
    
 .primerparrafo {
     padding-top: 30px;
@@ -135,9 +135,17 @@ footer, a {
     padding-top: 20px;
 }
 
-.card {
+.hijos-con-contenido-a-mover {
     display: inline-block;
     margin-left: 20px;
+    padding-top: 30px;
+}
+
+.hijos-con-contenido-a-mover p {
+    display: block;
+}
+
+.hijos-del-padre img {
     padding-top: 30px;
 }
 
