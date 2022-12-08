@@ -28,6 +28,7 @@ h1 {
 
 h2 {
     font-size: 25px;
+    color: black;
 }    
    
 .primerparrafo {
@@ -64,7 +65,7 @@ a:hover {
 .imagprincipal {
     padding-top: 50px;
     background-origin: bisque ;
-    margin-left: 250px;
+    margin-left: 340px;
 }
     
 .claz {
@@ -143,6 +144,7 @@ footer, a {
 
 .hijos-con-contenido-a-mover p {
     display: block;
+    width: 300px;
 }
 
 .hijos-del-padre img {
@@ -177,4 +179,16 @@ footer, a {
 .boton-form {
     margin-top: 30px;
     margin-left: 20px;
+}
+
+@media (min-width: 576px) {
+    index.html {
+        background-color: rgb(151, 204, 206);
+    }
+}
+
+@media (min-width: 1200px) {
+    index.html {
+        background-color: salmon;
+    }
 }
