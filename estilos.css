@@ -136,20 +136,22 @@ footer, a {
     padding-top: 20px;
 }
 
+.padre-mueve-3-divs {
+    display: flex;
+    flex-wrap: wrap ;
+}
+
 .hijos-con-contenido-a-mover {
-    display: inline-block;
-    margin-left: 20px;
     padding-top: 30px;
+    width: 33.33%;
 }
 
-.hijos-con-contenido-a-mover p {
-    display: block;
-    width: 300px;
+.hijos-del-padre {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;;
 }
 
-.hijos-del-padre img {
-    padding-top: 30px;
-}
 
 .hijos-del-padre p {
     display: inline;
@@ -181,61 +183,29 @@ footer, a {
     margin-left: 20px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .hijos-con-contenido-a-mover {
-        display: block;
-        margin-left: 20px;
-        padding-top: 30px;
+        width: 100%;
     }
-    .hijos-con-contenido-a-mover p {
-        display: block;
-        width: 200px;
-        padding-top: 10px;
+
+    .hijos-del-padre {
+        width: 100%;
     }
-    footer {
-        text-align: center;
-        width: 250px;
-    }
+     
 }
  
-@media (min-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .hijos-con-contenido-a-mover {
-        display: inline-block;
-        margin-left: 20px;
-        padding-top: 30px;
+        width: 50%;
     }
-    
-    .hijos-con-contenido-a-mover p {
-        display: block;
-        width: 300px;    
-        padding-top: 10px;
-}
-}
 
-@media (max-width: 768px) {
-    .hijos-del-padre p {
-        display: block;
-        margin-top: 10px;
-        width: 200px;
+    .hijos-del-padre {
+        width: 50%;
     }
-    .derechos {
-        font-size: 10px;
-        padding-top: 50px;
-        }    
-    footer {
-        text-align: center;
-        padding-top: 70px;
-        width: 250px;
-        }
-    .parraftienda {
-        width:300px;
-    }        
 }
 
-
-@media (min-width: 768px) {
-    .hijos-del-padre p {
-        display: inline;
-        margin-top: 10px;
-}
+@media only screen and (min-width: 769px) {
+    .hijos-con-contenido-a-mover {
+        width: 33,33%;
+    }
 }
