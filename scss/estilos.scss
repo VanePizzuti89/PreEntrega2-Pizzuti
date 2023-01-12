@@ -70,6 +70,12 @@ a:hover {
     padding-top: 20px;
 }
 
+.modelos-perros{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
 .destac {
     text-align: center;
     padding-top: 30px;
@@ -163,7 +169,6 @@ footer{
 }
 
 .boton-ver-mas {
-    margin-left: 650px;
     margin-top: 70px;
     text-align: center;
     color: blue;
