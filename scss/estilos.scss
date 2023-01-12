@@ -57,7 +57,7 @@ a:link {
 }
 
 a:hover {
-    color: white;
+    color: rgb(0, 225, 255);
 }
 
 .imagprincipal {
@@ -171,16 +171,11 @@ footer{
     padding-top: 10px;
 }
 
-.fond-form{
-    float:none
-    
-}
-
 legend{
     float: none;
-    background-image: url("./imagenes/imagendefondo2.jpg");
     background-size: cover;
     background-repeat: no-repeat ;
+    margin: 0 15%;
 }
 
 .padre-formulario {
@@ -204,6 +199,12 @@ legend{
     body{
         font-size: 10px;
     }
+
+    legend {
+        font-size: 10px;
+    }
+
+
 
 
     .imagprincipal {
