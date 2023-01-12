@@ -1,4 +1,4 @@
-$color-primario: red;
+$color-primario: rgb(243, 190, 146);
 $color-oscuro: black;
 
 @import "estructura";
@@ -15,7 +15,6 @@ header {
     align-items: center;
     margin: 0 10%;
 }
-
 
 h1 {
     color: $color-primario;
@@ -172,8 +171,20 @@ footer{
     padding-top: 10px;
 }
 
+.fond-form{
+    float:none
+    
+}
+
+legend{
+    float: none;
+    background-image: url("./imagenes/imagendefondo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
 .padre-formulario {
-    display: block;
+    display: flex;
     padding-top: 20px;
     margin-left: 20px;
     font-size: 15px;
