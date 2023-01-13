@@ -8,7 +8,7 @@ $color-oscuro: black;
 
 body {
     font-family: 'Comfortaa', cursive;
-    font-size: 17px;
+    font-size: 15px;
     background-color: white;
     box-sizing: border-box;    
     }
@@ -146,11 +146,19 @@ footer{
 .padre-mueve-3-divs {
     display: flex;
     flex-wrap: wrap ;
+    justify-content: space-evenly;
 }
 
 .hijos-con-contenido-a-mover {
-    padding-top: 30px;
-    width: 33.33%;
+    padding: 30px;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-cortes{
+    margin-top: 16px;
 }
 
 .hijos-del-padre {
