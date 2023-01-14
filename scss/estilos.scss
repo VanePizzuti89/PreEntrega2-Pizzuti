@@ -39,7 +39,7 @@ h2 {
 }
 
 .tex-first{
-    background-color: rgb(236, 216, 192);
+    background-color: #e5e5e5;
 }
 
 nav {
@@ -69,7 +69,7 @@ a:hover {
 }
 
 .imagprincipal {
-    padding-top: 50px;
+    padding-top: 60px;
     margin-left: 340px;
 }
     
@@ -78,23 +78,22 @@ a:hover {
     padding-top: 20px;
 }
 
+.destac {
+    text-align: center;
+    padding-top: 45px;
+}
+
 .modelos-perros{
     display: flex;
     justify-content: space-between;
-    margin: 0 5%;
+    margin: 5% 5%;
     background-image: url("./imagenes/imagendefondo2.jpg");
-}
-
-.destac {
-    text-align: center;
-    padding-top: 30px;
 }
 
 .repiten {
     height: 200px;
     width: 200px;
     display: inline;
-    padding-top: 50px;
     position:relative;
 }
 
@@ -135,14 +134,20 @@ a:hover {
 footer{
     display: flex;
     flex-direction: column;
-    margin: 2% 10%;
+    margin: 8% 10% 3%;
+    padding-bottom: 10px;
+}
 
+.sect-foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: #d9c590;
 }
 
 .foot-izq{
     display: flex;
     flex-direction: column;
-    padding: 0 10%;
+    padding-top: 30px;
 }
 
 h4{
@@ -154,28 +159,25 @@ h4{
 .icon-red{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
 }
 
 .icon-hijo{
     align-items: center;
     margin-left: 5px;
+    margin-top: 5px;
 }
 
 .num-bajar{
     padding-top: 12px;
 }
 
-.derechos-fut{
-    padding-top: 50px;
-}
 
 h3{
     font-size: 12px;
     text-align: center;
+    padding-top: 60px;
 }
-
 
 .tipo-de-perro {
     margin-left: 20px;
@@ -234,7 +236,7 @@ h3{
 }
 
 .boton-ver-mas {
-    margin-top: 70px;
+    margin-top: 20px;
     text-align: center;
     color: blue;
     background-color: rgb(151, 204, 206);
@@ -322,9 +324,6 @@ legend{
         text-align: center;
     }
 
-    .h3{
-        font-size: 10px;
-    }
 }
  
 @media only screen and (min-width: 481px) and (max-width: 768px) {
