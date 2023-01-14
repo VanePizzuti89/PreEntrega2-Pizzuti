@@ -46,8 +46,9 @@ nav {
     font-size: 20px;
     display: inline;
     text-align: center;
-    padding-left: 300px;
+    padding-left: 200px;
     padding-top: 50px;
+    margin: 0 2%;
 }
 
 li {
@@ -95,7 +96,6 @@ a:hover {
     display: inline;
     padding-top: 50px;
     position:relative;
-
 }
 
 .puff-in-center {
@@ -133,15 +133,16 @@ a:hover {
   }
   
 footer{
-    display: grid;
-    place-items: center;
-    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 10%;
+
 }
 
 .foot-izq{
     display: flex;
     flex-direction: column;
-    padding-left: 0 15%;
+    padding: 0 10%;
 }
 
 h4{
@@ -160,15 +161,13 @@ h4{
 .icon-hijo{
     align-items: center;
     margin-left: 5px;
-    padding: 3px 3px;
 }
 
 .num-bajar{
     padding-top: 12px;
 }
 
-.derechos{
-    font-size: 12px;
+.derechos-fut{
     padding-top: 50px;
 }
 
@@ -297,8 +296,6 @@ legend{
         height: 5%;
     }    
 
-   
-
     .primerparrafo{
         margin: 0 15%;
     }
@@ -328,7 +325,12 @@ legend{
     .hijos-del-padre {
         width: 50%;
     }
-}
+
+
+
+
+
+    }
 
 @media only screen and (min-width: 769px) {
     .hijos-con-contenido-a-mover {
