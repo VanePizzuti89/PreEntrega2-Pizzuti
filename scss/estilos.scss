@@ -33,9 +33,13 @@ h2 {
     color: $color-oscuro;
 }    
    
-.primerparrafo {
-    padding-top: 30px;
+.primer-parrafo{
+    padding-top: 50px;
     margin: 0 8% 1rem 8%;
+}
+
+.tex-first{
+    background-color: rgb(236, 216, 192);
 }
 
 nav {
@@ -77,6 +81,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     margin: 0 5%;
+    background-image: url("./imagenes/imagendefondo2.jpg");
 }
 
 .destac {
@@ -88,9 +93,9 @@ a:hover {
     height: 200px;
     width: 200px;
     display: inline;
-    margin-left: 130px;
     padding-top: 50px;
     position:relative;
+
 }
 
 .puff-in-center {
@@ -191,7 +196,18 @@ h4{
 }
 
 .banner-prod{
+    display: flex;
     justify-content: center;
+}
+
+.parraf-tiend{
+    padding-top: 20px;
+}
+
+.padre-presente{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .hijos-del-padre {
@@ -261,6 +277,11 @@ legend{
         padding-left: 15px;
     }
 
+    .modelos-perros{
+        flex-direction: column;
+        align-items: center;
+    }
+
     .padre-mueve-3-divs{
         flex-direction: column;
         align-items: center;
@@ -276,10 +297,7 @@ legend{
         height: 5%;
     }    
 
-    .repiten{
-        margin-left: 70px;
-        width: 30%;
-    }
+   
 
     .primerparrafo{
         margin: 0 15%;
