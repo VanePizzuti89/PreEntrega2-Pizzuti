@@ -130,19 +130,33 @@ a:hover {
 footer{
     display: grid;
     place-items: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
  
-.redes-soc{
-    display: flex;
-    border-radius: 2px;
-    padding: 2% 2% 2% 2% ;
-}
 h4{
     font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
 }
 
-.derechos {
+.icon-red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-hijo{
+    align-items: center;
+    margin-left: 5px;
+    padding: 3px 3px;
+}
+
+.num-bajar{
+    padding-top: 12px;
+}
+
+.derechos{
     font-size: 15px;
     padding-top: 50px;
 }
