@@ -316,8 +316,8 @@ legend {
   margin-left: 20px;
   margin-top: 40px;
   font-size: 17px;
-  border-radius: 5px;
-  color: aquamarine;
+  border-radius: 3px grey;
+  color: grey;
 }
 
 @media only screen and (max-width: 480px) {
