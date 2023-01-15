@@ -28,7 +28,7 @@ h1 {
     }
 
 h2 {
-    font-size: 25px;
+    font-size: 20px;
     color: $color-oscuro;
 }    
    
@@ -263,7 +263,7 @@ legend{
 }
 
 .hijo-formulario {
-    border-radius: 5px grey;
+    border-radius: 3px grey;
     margin-left: 3px;
     width: 40%;
 }
@@ -277,9 +277,10 @@ legend{
 }
 
 .boton-form {
-    margin-top: 30px;
     margin-left: 20px;
+    margin-top: 40px;
     font-size: 17px;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 480px) {

@@ -30,7 +30,7 @@ h1 {
 
 /* line 30, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 h2 {
-  font-size: 25px;
+  font-size: 20px;
   color: black;
 }
 
@@ -295,7 +295,7 @@ legend {
 
 /* line 265, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .hijo-formulario {
-  border-radius: 5px grey;
+  border-radius: 3px grey;
   margin-left: 3px;
   width: 40%;
 }
@@ -313,79 +313,80 @@ legend {
 
 /* line 279, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .boton-form {
-  margin-top: 30px;
   margin-left: 20px;
+  margin-top: 40px;
   font-size: 17px;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 286, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 287, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   body {
     font-size: 10px;
   }
-  /* line 290, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 291, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   header {
     flex-direction: column;
   }
-  /* line 293, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 294, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   nav {
     padding-left: 15px;
   }
-  /* line 297, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 298, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .modelos-perros {
     flex-direction: column;
     align-items: center;
   }
-  /* line 302, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 303, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .padre-mueve-3-divs {
     flex-direction: column;
     align-items: center;
   }
-  /* line 307, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 308, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   legend {
     font-size: 10px;
   }
-  /* line 311, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 312, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .imagprincipal {
     margin: 0 10%;
     width: 100%;
     height: 5%;
   }
-  /* line 317, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 318, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .primerparrafo {
     margin: 0 15%;
   }
-  /* line 321, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 322, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .boton-ver-mas {
     text-align: center;
   }
-  /* line 325, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 326, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijos-con-contenido-a-mover {
     width: 100%;
   }
-  /* line 329, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 330, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijos-del-padre {
     width: 100%;
   }
-  /* line 333, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 334, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   footer {
     text-align: center;
   }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* line 340, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 341, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijos-con-contenido-a-mover {
     width: 50%;
   }
-  /* line 344, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 345, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijos-del-padre {
     width: 50%;
   }
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 355, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 356, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijos-con-contenido-a-mover {
     width: 33,33%;
   }
