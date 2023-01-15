@@ -276,11 +276,12 @@ legend{
     }
 }
 
-.boton-form {
+.bot-form {
     margin-left: 20px;
     margin-top: 40px;
     font-size: 17px;
-    border-radius: 5px;
+    border-radius: 3px grey;
+    color: grey;
 }
 
 @media only screen and (max-width: 480px) {
@@ -295,6 +296,10 @@ legend{
         padding-left: 15px;
     }
 
+    h1{
+        font-size: 22px;
+    }
+
     .modelos-perros{
         flex-direction: column;
         align-items: center;
@@ -307,6 +312,24 @@ legend{
 
     legend {
         font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .campos-juntos{
+        flex-direction: column;
+        margin-left: 3px;
+        width: 60%;
+    }
+
+    .padre-formulario{
+        margin-left: 5px;
+    }
+
+    .hijo-formulario{
+        margin-left: 4px;
+        width: 60%;
     }
 
     .imagprincipal {
@@ -333,17 +356,53 @@ legend{
      
     footer {
         text-align: center;
+        margin-top: 40px;
     }
+
+    .icon-hijo img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .redes-soc h4{
+        font-size: 12px;
+
+    }
+
+    .num-bajar{
+        padding-top: 2px;
+    }
+
+
 
 }
  
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .header{
+        flex-direction: column;
+    
+    }
+    
     .hijos-con-contenido-a-mover {
         width: 50%;
     }
 
     .hijos-del-padre {
         width: 50%;
+    }
+
+    .form-estil{
+        align-items: center;
+
+    }
+
+    legend{
+        margin-left: 2px;
+    }
+
+    .campos-juntos .hijo-formulario{
+        width: 70%;
+
     }
 
 
