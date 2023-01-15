@@ -69,7 +69,7 @@ a:hover {
 
 .imagprincipal {
     padding-top: 60px;
-    margin-left: 340px;
+    margin: 5% 15%;
 }
     
 .claz {
@@ -256,13 +256,24 @@ legend{
 
 .padre-formulario {
     display: flex;
+    flex-direction: column;
     padding-top: 20px;
     margin-left: 20px;
     font-size: 15px;
 }
 
 .hijo-formulario {
-    border-radius: 10px;
+    border-radius: 5px grey;
+    margin-left: 3px;
+    width: 40%;
+}
+
+.campos-juntos{
+    display: flex;
+    .hijo-formulario{
+        width: 100%;
+        padding-left: 70px;
+    }
 }
 
 .boton-form {
