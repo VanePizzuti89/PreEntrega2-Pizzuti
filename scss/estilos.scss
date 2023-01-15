@@ -16,8 +16,35 @@ body {
 header {
     display: flex;
     align-items: center;
-    margin: 0 10%;
+    margin: 0 15%;
 }
+
+nav {
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 50px;
+    margin: 0 15%;
+}
+    
+li {
+    display: inline;
+    list-style: none;
+    font-family: cursive;
+    font-weight: bold;
+    color: blue;
+    padding-left: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(134, 217, 228);
+}
+
 
 h1 {
     color: $color-primario;
@@ -39,32 +66,6 @@ h2 {
 
 .tex-first{
     background-color: #e5e5e5;
-}
-
-nav {
-    font-size: 20px;
-    display: inline;
-    text-align: center;
-    padding-left: 150px;
-    padding-top: 50px;
-    margin: 0 2%;
-}
-
-li {
-    display: inline;
-    list-style: none;
-    font-family: cursive;
-    font-weight: bold;
-    color: blue;
-    padding-left: 10px;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:hover {
-    color: rgb(134, 217, 228);
 }
 
 .imagprincipal {
@@ -250,6 +251,10 @@ h3{
 
 .lolainspi{
     padding-top: 10px;
+}
+
+.hist-cp{
+
 }
 
 legend{
