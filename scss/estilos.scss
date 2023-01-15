@@ -79,7 +79,7 @@ a:hover {
 
 .destac {
     text-align: center;
-    padding-top: 45px;
+    margin-top: 55px;
 }
 
 .modelos-perros{
@@ -94,6 +94,11 @@ a:hover {
     width: 200px;
     display: inline;
     position:relative;
+}
+
+.tipo-de-perro{
+    padding-left: 50px;
+    margin-top: 40px;
 }
 
 .puff-in-center {
@@ -326,6 +331,7 @@ legend{
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin: 0%;
     }
 
     .bot-form{
@@ -413,7 +419,6 @@ legend{
         width: 50%;
     }
 
-    
 
     legend{
         margin-left: 30px;
@@ -429,7 +434,23 @@ legend{
         width: 50%;
     }
 
+
+    .modelos-perros{
+        flex-wrap: wrap;
+        width: 50%;
+        align-items: center;
     }
+
+    .repiten{
+        margin: 5% 5%;
+        height: 150px;
+        width: 150px;
+    }
+
+
+}
+
+
 
 @media only screen and (min-width: 769px) {
     .hijos-con-contenido-a-mover {
