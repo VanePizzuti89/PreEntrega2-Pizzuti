@@ -264,32 +264,12 @@ h3 {
 }
 
 /* line 242, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
-.padre-presente {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-/* line 248, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
-.hijos-del-padre {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 40px;
-}
-
-/* line 255, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
-.hijos-del-padre p {
-  display: inline;
-  margin-top: 50px;
-}
-
-/* line 261, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .centrar-boton {
   display: flex;
   justify-content: center;
 }
 
-/* line 266, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+/* line 247, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .boton-ver-mas {
   margin-top: 20px;
   text-align: center;
@@ -299,22 +279,32 @@ h3 {
   border-color: blue;
 }
 
-/* line 275, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+/* line 256, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+.otros-prod {
+  margin-top: 20px;
+  text-align: center;
+  color: blue;
+  background-color: #97ccce;
+  border-radius: 3px;
+  border-color: blue;
+}
+
+/* line 267, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .lolainspi {
   padding-top: 10px;
 }
 
-/* line 279, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+/* line 271, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .hist-cp {
   margin: 4% 8%;
 }
 
-/* line 284, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+/* line 276, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .lol-titu {
   color: #f3be92;
 }
 
-/* line 288, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+/* line 280, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 legend {
   float: none;
   background-size: cover;
@@ -322,7 +312,7 @@ legend {
   margin: 0 5%;
 }
 
-/* line 295, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+/* line 287, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .padre-formulario {
   display: flex;
   flex-direction: column;
@@ -331,25 +321,25 @@ legend {
   font-size: 15px;
 }
 
-/* line 303, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+/* line 295, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .hijo-formulario {
   border-radius: 3px grey;
   margin-left: 3px;
   width: 30%;
 }
 
-/* line 309, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+/* line 301, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .campos-juntos {
   display: flex;
 }
 
-/* line 311, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+/* line 303, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .campos-juntos .hijo-formulario {
   width: 80%;
   padding-left: 5px;
 }
 
-/* line 318, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+/* line 310, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
 .bot-form {
   margin-left: 20px;
   margin-top: 40px;
@@ -359,54 +349,54 @@ legend {
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 327, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 319, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   body {
     font-size: 10px;
   }
-  /* line 331, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 323, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   header {
     flex-direction: column;
   }
-  /* line 334, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 326, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   nav {
     padding-left: 15px;
     font-size: 16px;
   }
-  /* line 339, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 331, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   h1 {
     font-size: 22px;
   }
-  /* line 343, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 335, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .pri-img {
     flex-direction: column;
     margin-left: 2px;
   }
-  /* line 349, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 341, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .modelos-perros {
     flex-direction: column;
     align-items: center;
   }
-  /* line 354, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 346, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .repiten {
     flex-direction: column;
     height: 120px;
     width: 120px;
     margin-top: 15px;
   }
-  /* line 361, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 353, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .destac {
     margin-top: 5px;
   }
-  /* line 365, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 357, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .padre-mueve-3-divs {
     flex-direction: column;
     align-items: center;
   }
-  /* line 370, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 362, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .text-cortes {
     width: 200%;
   }
-  /* line 376, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 368, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   legend {
     font-size: 8px;
     display: flex;
@@ -414,103 +404,103 @@ legend {
     width: 100%;
     margin: 0%;
   }
-  /* line 384, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 376, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .bot-form {
     width: 20%;
   }
-  /* line 388, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 380, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .campos-juntos {
     flex-direction: column;
     margin-left: 3px;
     width: 50%;
   }
-  /* line 394, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 386, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .padre-formulario {
     margin-left: 5px;
     font-size: 13px;
   }
-  /* line 399, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 391, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijo-formulario {
     margin-left: 4px;
     width: 40%;
   }
-  /* line 404, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 396, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .primerparrafo {
     margin: 0 15%;
   }
-  /* line 408, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 400, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .boton-ver-mas {
     text-align: center;
   }
-  /* line 413, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 405, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijos-del-padre {
     width: 100%;
   }
-  /* line 417, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 409, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   footer {
     text-align: center;
     margin-top: 40px;
   }
-  /* line 422, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 414, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .icon-hijo img {
     height: 20px;
     width: 20px;
   }
-  /* line 427, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 419, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .redes-soc h4 {
     font-size: 12px;
   }
-  /* line 432, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 424, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .num-bajar {
     padding-top: 2px;
   }
-  /* line 436, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 428, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .sub-tit {
     padding-top: 2px;
   }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* line 445, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 437, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   nav {
     font-size: 15px;
   }
-  /* line 449, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 441, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   li a {
     display: inline;
   }
-  /* line 453, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 445, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijos-con-contenido-a-mover {
     width: 50%;
   }
-  /* line 457, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 449, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijos-del-padre {
     width: 50%;
   }
-  /* line 462, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 454, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   legend {
     margin-left: 5px;
   }
-  /* line 466, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 458, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .padre-formulario {
     width: 50%;
     padding-top: 20px;
   }
-  /* line 473, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 465, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .campos-juntos hijo-formulario {
     width: 40%;
   }
-  /* line 478, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 470, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijo-formulario {
     width: 100%;
   }
-  /* line 483, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 475, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .modelos-perros {
     flex-wrap: wrap;
     width: 80%;
     align-items: center;
   }
-  /* line 490, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 482, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .repiten {
     margin: 5% 10%;
     height: 120px;
@@ -519,19 +509,19 @@ legend {
 }
 
 @media only screen and (min-width: 769px) {
-  /* line 499, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 491, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijos-con-contenido-a-mover {
     width: 33,33%;
   }
-  /* line 504, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 496, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .padre-formulario {
     width: 100%;
   }
-  /* line 508, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 500, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .modelos-perros {
     width: 33,33%;
   }
-  /* line 513, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
+  /* line 505, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .repiten {
     margin-top: 15px;
   }
