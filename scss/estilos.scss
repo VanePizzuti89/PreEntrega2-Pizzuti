@@ -14,7 +14,6 @@ body {
     }
 
 header {
-    display: flex;
     align-items: center;
     margin: 0 15%;
 }
@@ -23,18 +22,23 @@ nav {
     font-size: 20px;
     display: inline;
     text-align: center;
-    padding-left: 150px;
-    padding-top: 50px;
-    margin: 0 15%;
+    margin: 0 10%;
+    background-color: white ;
 }
+
+.bg-body-tertiary{
+    background-color: white;
+
+}
+
     
 li {
     display: inline;
     list-style: none;
     font-family: cursive;
     font-weight: bold;
-    color: blue;
-    padding-left: 10px;
+    margin-left: 20px;
+    padding-left: 5px;
 }
 
 a:link {
@@ -59,9 +63,14 @@ h2 {
     color: $color-oscuro;
 }    
    
+.pri-img{
+    display: flex;
+    justify-content: center;
+}
+
 .primer-parrafo{
-    padding-top: 50px;
-    margin: 0 8% 1rem 8%;
+    padding-top: 10px;
+    margin: 0 3% 1rem 3%;
 }
 
 .tex-first{
@@ -101,7 +110,6 @@ h2 {
     padding-left: 50px;
     margin-top: 40px;
 }
-
 
 .title-animation {
 	-webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
@@ -152,7 +160,6 @@ h2 {
       opacity: 1;
     }
   }
-  
   
   
 footer{
@@ -229,6 +236,7 @@ h3{
 .banner-prod{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .parraf-tiend{
@@ -299,14 +307,15 @@ legend{
 .hijo-formulario {
     border-radius: 3px grey;
     margin-left: 3px;
-    width: 40%;
+    width: 30%;
 }
 
 .campos-juntos{
     display: flex;
     .hijo-formulario{
-        width: 100%;
-        padding-left: 70px;
+        width: 80%;
+        padding-left: 5px;
+
     }
 }
 
@@ -356,7 +365,7 @@ legend{
     }
 
     legend {
-        font-size: 10px;
+        font-size: 8px;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -375,11 +384,12 @@ legend{
 
     .padre-formulario{
         margin-left: 5px;
+        font-size: 13px;
     }
 
     .hijo-formulario{
         margin-left: 4px;
-        width: 50%;
+        width: 40%;
     }
 
     .imagprincipal {
@@ -440,8 +450,6 @@ legend{
         display: inline;
     }
 
-
-
     .hijos-con-contenido-a-mover {
         width: 50%;
     }
@@ -452,7 +460,7 @@ legend{
 
 
     legend{
-        margin-left: 30px;
+        margin-left: 5px;
     }
 
     .padre-formulario{
@@ -461,8 +469,14 @@ legend{
 
     }
 
-    .campos-juntos hijo-formulario{
-        width: 50%;
+    .campos-juntos {
+        hijo-formulario {
+        width: 40%;
+    }
+    }
+
+    .hijo-formulario {
+        width: 100%;
     }
 
 
@@ -477,10 +491,7 @@ legend{
         height: 150px;
         width: 150px;
     }
-
-
 }
-
 
 
 @media only screen and (min-width: 769px) {
@@ -488,5 +499,20 @@ legend{
         width: 33,33%;
 
     }
+
+    .padre-formulario{
+        width: 100%;
+    }
+
+    
+
+
+
+
+
+
+
+
+
 
     }
