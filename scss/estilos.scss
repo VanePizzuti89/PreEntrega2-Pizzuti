@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300&family=Oswald&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300&family=Oswald&display=swap');
 
 $color-primario: rgb(243, 190, 146);
 $color-oscuro: black;
@@ -59,8 +59,9 @@ h1 {
     }
 
 h2 {
-    font-size: 20px;
-    color: $color-oscuro;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(112, 112, 151);
 }    
    
 .pri-img{
@@ -236,7 +237,15 @@ h3{
 }
 
 .parraf-tiend{
-    padding-top: 20px;
+    margin: 4% 8%;
+}
+
+.loli-caniche{
+    margin: 5% 15%;
+}
+
+.lol-titu{
+    margin: 5% 15%;
 }
 
 .centrar-boton{
@@ -260,21 +269,16 @@ h3{
     background-color: rgb(151, 204, 206);
     border-radius: 3px;
     border-color: blue;
-
-
 }
 
 .lolainspi{
-    padding-top: 10px;
+    padding-top: 20px;
+    font-size: 'Comfortaa', cursive;
+    margin-left: 5%;
 }
 
 .hist-cp{
     margin: 4% 8%;
-
-}
-
-.lol-titu{
-    color:  rgb(243, 190, 146);
 }
 
 legend{
@@ -363,8 +367,6 @@ legend{
         width: 200%;
     }
 
-
-
     legend {
         font-size: 8px;
         display: flex;
@@ -401,7 +403,6 @@ legend{
         text-align: center;
     }    
     
-
     .hijos-del-padre {
         width: 100%;
     }
