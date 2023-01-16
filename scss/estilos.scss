@@ -77,10 +77,6 @@ h2 {
     background-color: #e5e5e5;
 }
 
-.imagprincipal {
-    padding-top: 60px;
-    margin: 5% 15%;
-}
     
 .claz {
     font-size: 17px;
@@ -344,12 +340,19 @@ legend{
         font-size: 22px;
     }
 
+    .pri-img{
+        flex-direction: column;
+        margin-left: 2px;
+    }
+
+
     .modelos-perros{
         flex-direction: column;
         align-items: center;
     }
 
     .repiten{
+        flex-direction: column;
         height: 120px;
         width: 120px;
         margin-top: 15px;
@@ -363,6 +366,12 @@ legend{
         flex-direction: column;
         align-items: center;
     }
+
+    .text-cortes{
+        width: 200%;
+    }
+
+
 
     legend {
         font-size: 8px;
@@ -392,12 +401,6 @@ legend{
         width: 40%;
     }
 
-    .imagprincipal {
-        margin: 0 10%;
-        width: 100%;
-        height: 5%;
-    }    
-
     .primerparrafo{
         margin: 0 15%;
     }
@@ -406,9 +409,6 @@ legend{
         text-align: center;
     }    
     
-    .hijos-con-contenido-a-mover {
-        width: 100%;
-    }
 
     .hijos-del-padre {
         width: 100%;
@@ -482,14 +482,15 @@ legend{
 
     .modelos-perros{
         flex-wrap: wrap;
-        width: 50%;
+        width: 80%;
         align-items: center;
     }
 
+    
     .repiten{
-        margin: 5% 5%;
-        height: 150px;
-        width: 150px;
+        margin: 5% 10%;
+        height: 120px;
+        width: 120px;
     }
 }
 
@@ -502,6 +503,15 @@ legend{
 
     .padre-formulario{
         width: 100%;
+    }
+
+    .modelos-perros{
+        width: 33,33%;
+    }
+
+    
+    .repiten{
+        margin-top: 15px;
     }
 
     
