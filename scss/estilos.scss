@@ -93,7 +93,6 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin: 5% 5%;
-    background-image: url("./imagenes/imagendefondo2.jpg");
 }
 
 .repiten {
@@ -158,7 +157,6 @@ h2 {
     }
   }
   
-  
 footer{
     display: flex;
     flex-direction: column;
@@ -199,7 +197,6 @@ h4{
 .num-bajar{
     padding-top: 12px;
 }
-
 
 h3{
     font-size: 12px;
@@ -433,8 +430,6 @@ legend{
 }
  
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    
-
     nav{
         font-size: 15px;
     }
@@ -451,7 +446,6 @@ legend{
         width: 50%;
     }
 
-
     legend{
         margin-left: 5px;
     }
@@ -459,7 +453,6 @@ legend{
     .padre-formulario{
         width:50%;
         padding-top: 20px;
-
     }
 
     .campos-juntos {
@@ -472,14 +465,12 @@ legend{
         width: 100%;
     }
 
-
     .modelos-perros{
         flex-wrap: wrap;
         width: 80%;
         align-items: center;
     }
 
-    
     .repiten{
         margin: 5% 10%;
         height: 120px;
@@ -487,11 +478,9 @@ legend{
     }
 }
 
-
 @media only screen and (min-width: 769px) {
     .hijos-con-contenido-a-mover {
         width: 33,33%;
-
     }
 
     .padre-formulario{
@@ -502,20 +491,8 @@ legend{
         width: 33,33%;
     }
 
-    
     .repiten{
         margin-top: 15px;
     }
-
-    
-
-
-
-
-
-
-
-
-
 
     }
