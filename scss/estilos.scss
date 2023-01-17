@@ -78,7 +78,6 @@ h2 {
     background-color: #e5e5e5;
 }
 
-    
 .claz {
     font-size: 17px;
     padding-top: 20px;
@@ -280,33 +279,25 @@ h3{
 
 legend{
     float: none;
-    background-size: cover;
-    background-repeat: no-repeat ;
-    margin: 0 5%;
+    margin: 0% 5%;
 }
 
 .padre-formulario {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    margin-left: 20px;
     font-size: 15px;
 }
 
 .hijo-formulario {
     border-radius: 3px grey;
-    margin-left: 3px;
-    width: 30%;
+    width: 50%;
 }
 
 .campos-juntos{
     display: flex;
-    .hijo-formulario{
-        width: 80%;
-        padding-left: 5px;
-
     }
-}
+
 
 .bot-form {
     margin-left: 20px;
@@ -338,7 +329,6 @@ legend{
         margin-left: 2px;
     }
 
-
     .modelos-perros{
         flex-direction: column;
         align-items: center;
@@ -369,7 +359,7 @@ legend{
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin: 0%;
+        margin: 0 15%;
     }
 
     .bot-form{
@@ -378,18 +368,15 @@ legend{
 
     .campos-juntos{
         flex-direction: column;
-        margin-left: 3px;
-        width: 50%;
     }
 
     .padre-formulario{
-        margin-left: 5px;
         font-size: 13px;
     }
 
     .hijo-formulario{
         margin-left: 4px;
-        width: 40%;
+        width: 30%;
     }
 
     .primerparrafo{
@@ -416,7 +403,6 @@ legend{
 
     .redes-soc h4{
         font-size: 12px;
-
     }
 
     .num-bajar{
@@ -425,6 +411,10 @@ legend{
 
     .sub-tit{
         padding-top: 2px;
+    }
+
+    .banner-prod{
+        width: 70%;
     }
 
 }
