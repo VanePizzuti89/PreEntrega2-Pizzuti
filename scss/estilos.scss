@@ -216,7 +216,7 @@ h3{
 
 .hijos-con-contenido-a-mover {
     padding: 30px;
-    width: 28%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,11 +333,11 @@ legend{
         flex-direction: column;
         align-items: center;
     }
-
+    
     .repiten{
         flex-direction: column;
-        height: 120px;
-        width: 120px;
+        height: 100px;
+        width: 100px;
         margin-top: 15px;
     }
 
@@ -352,7 +352,18 @@ legend{
 
     .text-cortes{
         width: 200%;
+        font-size: 12px;
     }
+
+    .tipo-de-perro{
+        font-size: 20px;
+    }
+
+    .logo-perru{
+    height: 80px;
+    width: 80px;
+    }
+
 
     legend {
         font-size: 8px;
