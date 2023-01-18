@@ -213,7 +213,6 @@ h3{
     margin: 0 8%;
     align-items: center;
     padding-top: 20px;
-
 }
 
 .text-cortes{
@@ -231,7 +230,6 @@ h3{
     margin: 4% 8%;
     background-color: #e5e5e5
 }
-
 
 .loli-caniche{
     margin: 5% 15%;
@@ -266,7 +264,8 @@ h3{
 
 .cards-achicar{
     height: 260px;
-    width: 400px;
+    width: 450px;
+    margin: 0 5%;
 }
 
 .lolainspi{
@@ -437,8 +436,14 @@ legend{
     }
 
     .cards-achicar{
-        width: 100%;
+        width: 70%;
+        height: 500px;
+    }
 
+    .card-cepillo{
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
     }
 
     .img-lola{
