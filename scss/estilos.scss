@@ -203,20 +203,15 @@ h3{
     padding-top: 60px;
 }
 
-.tipo-de-perro {
-    margin-left: 20px;
-    padding-top: 20px;
-}
-
 .padre-mueve-3-divs {
     display: flex;
     flex-wrap: wrap ;
     justify-content: space-evenly;
+    width: 33,33%;
 }
 
 .hijos-con-contenido-a-mover {
     padding: 30px;
-    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,6 +219,7 @@ h3{
 
 .text-cortes{
     margin-top: 16px;
+    width: 33,33%;
 }
 
 .banner-prod{
@@ -236,6 +232,7 @@ h3{
     margin: 4% 8%;
     background-color: #e5e5e5
 }
+
 
 .loli-caniche{
     margin: 5% 15%;
@@ -350,9 +347,12 @@ legend{
         flex-direction: column;
         align-items: center;
     }
+    .hijos-con-contenido-a-mover{
+        flex-direction: column;
+    }
 
     .text-cortes{
-        width: 200%;
+        width: 30%;
         font-size: 12px;
     }
 
