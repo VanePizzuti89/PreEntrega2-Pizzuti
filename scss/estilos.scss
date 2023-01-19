@@ -437,13 +437,12 @@ legend{
 
     .cards-achicar{
         width: 70%;
-        height: 500px;
+        height: auto;
     }
 
     .card-cepillo{
         display: flex;
         justify-content: center;
-        margin-top: 0;
     }
 
     .img-lola{
@@ -515,6 +514,23 @@ legend{
         margin: 5% 10%;
         height: 120px;
         width: 120px;
+    }
+
+    .banner-prod{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        margin: 0% 5%;
+    }
+
+    .cards-achicar{
+        width: 70%;
+        height: auto;
+    }
+
+    .card-cepillo{
+        display: flex;
+        justify-content: center;
     }
 }
 
