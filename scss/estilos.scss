@@ -206,7 +206,6 @@ h3{
 .padre-mueve-3-divs {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .hijos-con-contenido-a-mover {
@@ -299,14 +298,12 @@ legend{
     display: flex;
     }
 
-
 .bot-form {
     margin-left: 20px;
     margin-top: 40px;
     font-size: 15px;
     border-radius: 3px grey;
     color: grey;
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -371,7 +368,6 @@ legend{
     width: 80px;
     }
 
-
     legend {
         font-size: 13px;
         display: flex;
@@ -434,8 +430,8 @@ legend{
     }
 
     .banner-prod{
-        margin: 0 2%;
-        width: 70%;
+        margin: auto;
+        width: 50%;
     }
 
     .cards-achicar{
@@ -525,7 +521,7 @@ legend{
         display: flex;
         justify-content: center;
         width: 70%;
-        margin: 0% 5%;
+        margin: auto;
     }
 
     .cards-achicar{
@@ -537,6 +533,11 @@ legend{
         display: flex;
         justify-content: center;
     }
+
+    .logo-perru{
+        height: 90px;
+        width: 90px;
+        }
 }
 
 @media only screen and (min-width: 769px) {
@@ -545,8 +546,17 @@ legend{
     }
 
     .padre-formulario{
-        width: 100%;
+        width: 80%;
     }
+
+    .campos-juntos {
+        .padre-formulario{
+            width: 40%;
+            padding: auto;
+        }
+    }    
+
+
 
     .modelos-perros{
         width: 33,33%;
