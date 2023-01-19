@@ -303,9 +303,10 @@ legend{
 .bot-form {
     margin-left: 20px;
     margin-top: 40px;
-    font-size: 17px;
+    font-size: 15px;
     border-radius: 3px grey;
     color: grey;
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -322,7 +323,7 @@ legend{
     }
 
     h1{
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .pri-img{
@@ -372,15 +373,16 @@ legend{
 
 
     legend {
-        font-size: 8px;
+        font-size: 13px;
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin: 0 15%;
+        justify-content: center;
     }
 
     .bot-form{
-        width: 20%;
+        font-size: 13px;
+        width: 15%;
+        padding: 0;
     }
 
     .campos-juntos{
@@ -389,11 +391,12 @@ legend{
 
     .padre-formulario{
         font-size: 13px;
+        width: 100%;
     }
 
     .hijo-formulario{
         margin-left: 4px;
-        width: 30%;
+        width: 60%;
     }
 
     .primerparrafo{
@@ -490,15 +493,17 @@ legend{
     }
 
     .padre-formulario{
-        width:50%;
+        width:82%;
         padding-top: 20px;
+        margin-left: 10px;
     }
 
     .campos-juntos {
-        hijo-formulario {
-        width: 40%;
-    }
-    }
+        .padre-formulario{
+            margin-left: 10px;
+            width: 40%;
+        }
+    }    
 
     .hijo-formulario {
         width: 100%;
