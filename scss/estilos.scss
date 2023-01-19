@@ -295,7 +295,9 @@ legend{
 }
 
 .campos-juntos{
-    display: flex;
+    flex-direction: row;
+    width: 20%;
+    font-size: 15px;
     }
 
 .bot-form {
