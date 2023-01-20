@@ -282,6 +282,11 @@ legend{
     margin: 0% 5%;
 }
 
+form{
+    width: 70%;
+    margin: 0 10%;
+}
+
 .padre-formulario {
     display: flex;
     flex-direction: column;
@@ -290,8 +295,8 @@ legend{
 }
 
 .hijo-formulario {
-    border-radius: 3px grey;
-    width: 55%;
+    border-radius: 5px grey;
+
 }
 
 .campos-juntos{
@@ -311,7 +316,7 @@ legend{
 .phone{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: auto;
     width: 42%;
 }
 
@@ -394,7 +399,7 @@ legend{
 
     .bot-form{
         font-size: 13px;
-        width: 15%;
+        width: 20%;
         padding: 0;
     }
 
@@ -409,17 +414,20 @@ legend{
 
     .hijo-formulario{
         margin-left: 4px;
-        width: 60%;
+        width: 100%;
     }
 
-    .phone{
-        margin-top: 10px;
+    .campos-juntos{
         width: 100%;
-
     }
 
     .email{
         width: 100%
+    }
+
+    .phone{
+        width: 100%;
+        margin-top: 10px;
     }
 
 
@@ -531,6 +539,17 @@ legend{
         width: 100%;
     }
 
+
+    .email{
+        width: 40%;
+    }
+
+    .phone{
+        width: 40%;
+        margin-left: 35px;
+
+    }
+
     .modelos-perros{
         flex-wrap: wrap;
         width: 80%;
@@ -567,21 +586,31 @@ legend{
 }
 
 @media only screen and (min-width: 769px) {
+    h1{
+        font-size: 30px;
+    }
+
+
     .hijos-con-contenido-a-mover {
         width: 33,33%;
     }
 
-    .hijo-formulario{
-        width: 50%;
+    .padre-formulario{
+        font-size: 20px;
     }
 
-    .email{
-        width:70%;
+    .hijo-formulario{
+        width: 90%;
     }
+
+    .campos-juntos{
+        font-size: 20px;
+        width: 100%;
+    }
+
 
     .phone{
-        width: 70%;
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .modelos-perros{
@@ -590,6 +619,10 @@ legend{
 
     .repiten{
         margin-top: 15px;
+    }
+
+    .bot-form{
+        font-size: 20px;
     }
 
     }
