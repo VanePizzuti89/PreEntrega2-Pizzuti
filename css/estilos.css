@@ -636,7 +636,7 @@ form {
   }
   /* line 598, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .padre-formulario {
-    font-size: 20px;
+    font-size: 16px;
   }
   /* line 602, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .hijo-formulario {
@@ -644,7 +644,7 @@ form {
   }
   /* line 606, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
   .campos-juntos {
-    font-size: 20px;
+    font-size: 16px;
     width: 100%;
   }
   /* line 612, ../../CODERHOUSE - DESARROLLO WEB/Mi proyecto/scss/estilos.scss */
