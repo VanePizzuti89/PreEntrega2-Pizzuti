@@ -298,7 +298,8 @@ form{
 }
 
 .hijo-formulario {
-    border-radius: 5px grey;
+    border: 1px solid rgb(192, 180, 180);
+    border-radius: 7px;
 }
 
 .campos-juntos{
@@ -322,11 +323,26 @@ form{
     width: 42%;
 }
 
+input{
+    border: 1px solid rgb(192, 180, 180);
+    border-radius: 7px;
+}
+
+label{
+    color: rgb(223, 177, 52);
+}
+
+.textar{
+    color: rgb(223, 177, 52);
+}
+
 .bot-form {
     margin-left: 20px;
     margin-top: 40px;
-    border-radius: 3px rgb(109, 103, 103);
+    border: 2px solid grey;
+    border-radius: 10px;
     color: grey;
+    font-size: small;
 }
 
 @media only screen and (max-width: 480px) {
