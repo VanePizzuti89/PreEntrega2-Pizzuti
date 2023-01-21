@@ -210,11 +210,18 @@ h3{
 }
 
 .hijos-con-contenido-a-mover {
-    width: 28%;
+    
     align-items: center;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.text-cortes{
+    margin-top: 10px;
+    width: 200px;
 }
 
 .banner-prod{
@@ -395,7 +402,6 @@ label{
     }
 
     .hijos-con-contenido-a-mover{
-       width: 28%;
        align-items: center;
        padding-top: 20px;
        display: flex;
@@ -403,6 +409,7 @@ label{
     }
 
     .text-cortes{
+        margin-top: 10px;
         font-size: 12px;
     }
 
@@ -495,8 +502,6 @@ label{
         padding-top: 2px;
     }
 
-    
-
     .cards-achicar{
         width: 70%;
         height: auto;
@@ -525,23 +530,22 @@ label{
 
     .padre-mueve-3-divs{
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-evenly;
-        flex-direction: column;
         align-items: center;
-     
+        
     }
 
     .hijos-con-contenido-a-mover{
-        width: 15%;
-        align-items: center;
-        padding-top: 20px;
+        
+        
         display: flex;
         flex-direction: column;
-
+        
+        
     }
 
     .text-cortes{
+        margin-top: 10px;
         font-size: 12px;
     }
 
@@ -628,15 +632,7 @@ label{
         font-size: 30px;
     }
 
-    .padre-mueve-3-divs{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
+    
     .padre-formulario{
         font-size: 16px;
     }
