@@ -600,8 +600,9 @@ label{
     }
 
     .banner-prod{
-        width: 70%;
+        width: 50%;
         margin: auto;
+        display: flex;
     }
 
     .cards-achicar{
@@ -684,6 +685,7 @@ label{
         display: flex;
         justify-content: center;
         margin: auto;
+        width: 50%;
     }
 
     }
