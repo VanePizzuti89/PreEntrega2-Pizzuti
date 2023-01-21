@@ -71,7 +71,7 @@ h2 {
 
 .primer-parrafo{
     padding-top: 10px;
-    margin: 0 3% 1rem 3%;
+    margin: auto;
 }
 
 .tex-first{
@@ -374,13 +374,16 @@ label{
     }
 
     .modelos-perros{
+        display: flex;
         flex-direction: column;
         align-items: center;
-        width: 70%;
+        
     }
-    
+
     .repiten{
+        display: flex;
         flex-direction: column;
+        align-items: center;
         height: 100px;
         width: 100px;
         margin-top: 20px;
@@ -417,8 +420,8 @@ label{
     }
 
     .logo-perru{
-    height: 80px;
-    width: 80px;
+       height: 80px;
+       width: 80px;
     }
 
     legend {
@@ -582,16 +585,22 @@ label{
         margin-left: 35px;
     }
 
+
     .modelos-perros{
+        display: flex;
         flex-wrap: wrap;
-        width: 80%;
-        align-items: center;
+        padding-left: 5px;
+        padding-top: 5px;
+      
     }
 
     .repiten{
-        margin: 5% 12%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         height: 123px;
         width: 123px;
+        padding-top: 5px;
     }
 
   
