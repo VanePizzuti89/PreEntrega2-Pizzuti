@@ -220,7 +220,6 @@ h3{
 }
 
 .text-cortes{
-    margin-top: 10px;
     width: 200px;
 }
 
@@ -409,7 +408,7 @@ label{
     }
 
     .text-cortes{
-        margin-top: 10px;
+        width: 200px;
         font-size: 12px;
     }
 
@@ -531,21 +530,19 @@ label{
     .padre-mueve-3-divs{
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
         
     }
 
     .hijos-con-contenido-a-mover{
         
-        
+        padding-top: 20px;
         display: flex;
         flex-direction: column;
-        
-        
+          
     }
 
     .text-cortes{
-        margin-top: 10px;
+        width: 200px;
         font-size: 12px;
     }
 
