@@ -206,24 +206,25 @@ h3{
 .padre-mueve-3-divs {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .hijos-con-contenido-a-mover {
-    margin: 0 8%;
+    width: 28%;
     align-items: center;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.text-cortes{
-    margin-top: 16px;
-    width: 200px;
-}
 
 .banner-prod{
+    width: 50%;
+    margin: auto;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-}
+    
+    }
 
 .parraf-tiend{
     margin: 4% 8%;
@@ -366,7 +367,6 @@ label{
         width: 250px;
         height: 250px;
         padding-left: auto;
-
     }
 
     .modelos-perros{
@@ -389,17 +389,22 @@ label{
     }
 
     .padre-mueve-3-divs{
-        flex-direction: column;
-        margin: 0 15%;
-
-    }
-    .hijos-con-contenido-a-mover{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
     }
 
+    .hijos-con-contenido-a-mover{
+       width: 28%;
+       align-items: center;
+       padding-top: 20px;
+       display: flex;
+       flex-direction: column;
+    }
+
     .text-cortes{
-        width: 100%;
         font-size: 12px;
     }
 
@@ -493,8 +498,9 @@ label{
     }
 
     .banner-prod{
-        margin: auto;
         width: 50%;
+        margin: auto;
+        display: flex;
     }
 
     .cards-achicar{
@@ -524,15 +530,21 @@ label{
     }
 
     .padre-mueve-3-divs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         flex-direction: column;
+        align-items: center;
+     
     }
 
     .hijos-con-contenido-a-mover{
-        flex-direction: column;
+        width: 15%;
         align-items: center;
-        width: 30%;
-        padding-top: 15px;
-        flex-wrap: wrap;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .text-cortes{
@@ -588,8 +600,6 @@ label{
     }
 
     .banner-prod{
-        display: flex;
-        justify-content: center;
         width: 70%;
         margin: auto;
     }
@@ -627,9 +637,14 @@ label{
         font-size: 30px;
     }
 
-    .hijos-con-contenido-a-mover {
-        width: 33,33%;
+    .padre-mueve-3-divs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
     }
+
 
     .padre-formulario{
         font-size: 16px;
@@ -664,5 +679,11 @@ label{
     .primer-parrafo{
         width: 70%;
     } 
+
+    .banner-prod{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
 
     }
