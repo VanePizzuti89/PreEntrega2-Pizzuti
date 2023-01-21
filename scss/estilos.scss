@@ -217,13 +217,11 @@ h3{
     flex-direction: column;
 }
 
-
 .banner-prod{
-    width: 50%;
-    margin: auto;
     display: flex;
-    justify-content: center;
-    
+    width: 45%;
+    margin: 5px auto;
+
     }
 
 .parraf-tiend{
@@ -497,11 +495,7 @@ label{
         padding-top: 2px;
     }
 
-    .banner-prod{
-        width: 50%;
-        margin: auto;
-        display: flex;
-    }
+    
 
     .cards-achicar{
         width: 70%;
@@ -599,11 +593,7 @@ label{
         width: 123px;
     }
 
-    .banner-prod{
-        width: 50%;
-        margin: auto;
-        display: flex;
-    }
+  
 
     .cards-achicar{
         width: 70%;
@@ -681,11 +671,6 @@ label{
         width: 70%;
     } 
 
-    .banner-prod{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        width: 50%;
-    }
+  
 
     }
